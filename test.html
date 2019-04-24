@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Тип символов (UTF-8)-->
+	<meta charset="UTF-8">
+
+	<!-- Заголовок -->
+	<title>Игра</title>
+
+	<!-- Подключаем доп. файлы -->
+	<link rel="stylesheet" href="style.css">
+	<script src="jQuery.min.js"></script>
+	<script src="script.js"></script>
+
+
+
+</head>
+<body>
+	<!-- Чертим поле -->
+	<div class="MAIN_DIV">
+    	<h1 class="result" align="center">Ваш ход!</h1>
+    	<h1 class="score" align="center">0 : 0</h1>
+    	<div class="div kletka1"></div>
+    	<div class="div kletka2"></div>
+    	<div class="div kletka3"></div>
+    	<div class="div kletka4"></div>
+    	<div class="div kletka5"></div>
+    	<div class="div kletka6"></div>
+    	<div class="div kletka7"></div>
+    	<div class="div kletka8"></div>
+    	<div class="div kletka9"></div>
+	</div>
+
+	<!-- Отступ -->
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+	<!-- Кнопка -->
+	<div align="center">
+		<button id="Res" onclick="Restart()">Перезагрузка</button>
+	</div>
+
+	<!-- Отступ -->
+	<br>
+
+
+	<!-- Кнопки -->
+	<div align="center">
+		<button id="B1" onclick="X()"><b>X</b></button>
+		<button id="B2" onclick="O()"><b>O</b></button>
+	</div>
+
+
+	<!-- Надпись -->
+	<p id="p" align="center">Created by Maximax</p>
+</body>
+</html>

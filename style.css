@@ -1,0 +1,70 @@
+.MAIN_DIV{
+    /* Ширина */
+    width: 306px;
+    /* Отступ */
+    margin: 0 auto;
+}
+
+
+.MAIN_DIV .div{
+    /* Ширина, высота, рамка, курсор, размещение, размещение текста,
+    размер текста, высота линий*/
+    width: 90px;
+    height: 90px;
+    border: 2px solid #999;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-size: 80px;
+    line-height: 94px;
+}
+
+/* Рисуем толстый контур */
+.MAIN_DIV .kletka1, .MAIN_DIV .kletka2, .MAIN_DIV .kletka3 {
+    border-top: 5px solid #000;
+}
+
+.MAIN_DIV .kletka1, .MAIN_DIV .kletka4, .MAIN_DIV .kletka7 {
+    border-left: 5px solid #000;
+}
+
+.MAIN_DIV .kletka3, .MAIN_DIV .kletka6, .MAIN_DIV .kletka9 {
+    border-right: 5px solid #000;
+}
+
+.MAIN_DIV .kletka7, .MAIN_DIV .kletka8, .MAIN_DIV .kletka9 {
+    border-bottom: 5px solid #000;
+}
+
+/* Кнопка */
+#Res, #B1, #B2 {
+    font-size: 26px;
+}
+
+/* Надпись */
+#p {
+    /* Градиент */
+    background: linear-gradient(lime, red, blue, orange);
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+    font-size: 60px;
+    /* Шрифт */
+    font-family: Brush Script Std, cursive;
+}
+
+#B2, #B1 {
+    background: white;
+    border: 2px solid #000099;
+    height: 36px;
+    width: 36px;
+}
+
+#B2 {
+    margin-left: 4px;
+}
+
+#B1 {
+    background-color: lime;
+}
